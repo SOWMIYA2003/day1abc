@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - ABC College</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            text-align: center;
+            padding: 50px;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 100%;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="College Logo" width="100">
+        <h1>ABC College</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="academics.html">Academics</a>
+        <a href="admission.html">Admission</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+    <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="images/e1.png" alt="Gallery Image 1">
+            <img src="images/e2.png" alt="Gallery Image 2">
+            <img src="images/e3.png" alt="Gallery Image 3">
+            <img src="images/e4.png" alt="Gallery Image 4">
+        </div>
+    </div>
+</body>
+</html>
